@@ -1,0 +1,35 @@
+$primary-color: #af4c4c; 
+$hover-color: #c00909; 
+$font-family: 'Arial', sans-serif;
+
+body {
+    font-family: $font-family;
+    margin: 20px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .column {
+            width: 48%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    }
+}
+
+.styled-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}

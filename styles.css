@@ -1,0 +1,30 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+}
+body .container {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .column {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.styled-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.styled-button:hover {
+  background-color: #c00909;
+}
+
+/*# sourceMappingURL=styles.css.map */
